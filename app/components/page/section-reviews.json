@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "name": "sectionReviews",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reviews"
+    }
+  }
+}
